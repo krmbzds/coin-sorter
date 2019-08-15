@@ -1,13 +1,13 @@
 /* [General] */
 
 // Choose a currency you use.
-currency = "usd"; // [usd:USD - US dollar, eur:EUR - Euro, chf:CHF - Swiss franc, cad:CAD - Canadian dollar, thb:THB - Thai Baht, cny:CNY - Chinese Yuan, other:Other (See "Slot customization" tab above)]
+currency = "other"; // [usd:USD - US dollar, eur:EUR - Euro, chf:CHF - Swiss franc, cad:CAD - Canadian dollar, thb:THB - Thai Baht, cny:CNY - Chinese Yuan, other:Other (See "Slot customization" tab above)]
 
 // How tall is the the shortest tube? In millimeters:
 height = 50; // [10:150]
 
 // Choose a pattern for the back side.
-pattern = "mesh"; // [no:Solid without pattern, chncoin:Chinese ancient coin pattern, mesh:Mesh pattern]
+pattern = "no"; // [no:Solid without pattern, chncoin:Chinese ancient coin pattern, mesh:Mesh pattern]
 
 // Would you like Tom-and-Jerry pictures on the left side and right side? (Not fully supported; may only work with OpenSCAD version 2014.09 ~ 2014.12.)
 image = 0; //// [1:Yes please, 0:No thanks]
@@ -21,24 +21,24 @@ part = "all"; // [all:All these three parts assembled together,all_unassembled:A
 understand = 1; // [1:Yes I understand,0:Yes I said understand]
 
 // in millimeters. For the first (and biggest) coin.
-coin_1_diameter = 30.61;
+coin_1_diameter = 26.15;
 // in millimeters.
-coin_1_thickness = 2.15;
+coin_1_thickness = 1.9;
 // The second coin. Remember: this 2nd coin should always be smaller than the 1st coin.
-coin_2_diameter = 26.50;
-coin_2_thickness = 2.00;
+coin_2_diameter = 23.85;
+coin_2_thickness = 1.9;
 // The 3rd coin.
-coin_3_diameter = 24.26;
-coin_3_thickness = 1.75;
+coin_3_diameter = 20.55;
+coin_3_thickness = 1.65;
 // 4th coin.
-coin_4_diameter = 21.21;
-coin_4_thickness = 1.95;
+coin_4_diameter = 18.15;
+coin_4_thickness = 1.65;
 // 5th coin. If you don't need more coins, simply set the remaining to 0.
-coin_5_diameter = 0;
-coin_5_thickness = 0;
+coin_5_diameter = 17.5;
+coin_5_thickness = 1.65;
 // 6th coin.
-coin_6_diameter = 0;
-coin_6_thickness = 0;
+coin_6_diameter = 16.5;
+coin_6_thickness = 1.35;
 // 7th coin.
 coin_7_diameter = 0;
 coin_7_thickness = 0;
